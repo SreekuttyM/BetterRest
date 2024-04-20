@@ -11,6 +11,7 @@
 		4DCEEDAB2BD39ABD00DA8F95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEEDAA2BD39ABD00DA8F95 /* ContentView.swift */; };
 		4DCEEDAD2BD39AC200DA8F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEEDAC2BD39AC200DA8F95 /* Assets.xcassets */; };
 		4DCEEDB02BD39AC200DA8F95 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEEDAF2BD39AC200DA8F95 /* Preview Assets.xcassets */; };
+		4DCEEDB72BD3F30100DA8F95 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4DCEEDB62BD3F30000DA8F95 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DCEEDAA2BD39ABD00DA8F95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DCEEDAC2BD39AC200DA8F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCEEDAF2BD39AC200DA8F95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DCEEDB62BD3F30000DA8F95 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				4DCEEDA82BD39ABD00DA8F95 /* BetterRestApp.swift */,
+				4DCEEDB62BD3F30000DA8F95 /* SleepCalculator.mlmodel */,
 				4DCEEDAA2BD39ABD00DA8F95 /* ContentView.swift */,
 				4DCEEDAC2BD39AC200DA8F95 /* Assets.xcassets */,
 				4DCEEDAE2BD39AC200DA8F95 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCEEDB72BD3F30100DA8F95 /* SleepCalculator.mlmodel in Sources */,
 				4DCEEDAB2BD39ABD00DA8F95 /* ContentView.swift in Sources */,
 				4DCEEDA92BD39ABD00DA8F95 /* BetterRestApp.swift in Sources */,
 			);
@@ -272,6 +276,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_TEAM = NTYX82CF4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +289,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenscent.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -300,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BetterRest/Preview Content\"";
+				DEVELOPMENT_TEAM = NTYX82CF4J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BetterRest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goldenscent.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
