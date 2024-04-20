@@ -17,14 +17,23 @@ struct ContentView: View {
             let tomorrow = Date.now.addingTimeInterval(86400)
 
             // create a range from those two
-            let range = Date.now...tomorrow
-            DatePicker("", selection: $wakeUp,in: Date.now...).labelsHidden()
-            DatePicker("", selection: $wakeUp,in: Date.now...).labelsHidden()
-            DatePicker("", selection: $wakeUp,displayedComponents: .date).labelsHidden()
-            DatePicker("select date", selection: $wakeUp,in: Date.now...)
+            let components = Calendar.current.dateComponents([.hour, .minute], from: caluclateDate())
+            let hour = components.hour ?? 0
+            let minute = components.minute ?? 0
+            Text(Date.now, format: .dateTime.hour().minute())
+            Text(Date.now, format: .dateTime.day().month().year())
+            Text(Date.now.formatted(date: .long, time: .shortened))
 
 
         }.padding()
+    }
+    
+    func caluclateDate()  -> Date {
+        var components = DateComponents()
+        components.hour = 8
+        components.minute = 0
+        let date = Calendar.current.date(from: components) ?? .now
+        return date
     }
 }
 
